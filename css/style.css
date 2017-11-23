@@ -1,0 +1,242 @@
+@import url("contact-form.css");
+@import url("articles.css");
+
+html{
+    margin: 0 auto;
+    
+}
+
+body{
+   margin:0; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width:80%;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFE4E1;
+}
+
+h1{
+    font-size: 4.2rem;
+    margin:0;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+a{
+    text-decoration: none;
+    color:#FFF5EE;
+}
+
+a:hover{
+    color:#FFEBCD;
+}
+/*****************header styles*****************/
+
+header{
+    margin-top: 15px;
+    height: 250px;
+}
+
+.header-title{
+    font-size:3rem;
+    margin-bottom: 0;
+    text-shadow: 2px 1px 3px #000;
+}
+
+.header-subtitle{
+    font-size: 2rem;
+    margin-top: 0;
+    float: left;
+    text-shadow: 1px 1px 2px #000;
+}
+/******************Menu styles**********************/
+nav{
+    float: right;
+    padding-top: -5px;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 2rem;
+}
+
+
+.submenu{
+    list-style: none;
+    display: none;
+}
+
+.submenu li{
+    display: block;
+    position: absolute;
+    font-size: 2rem;
+    width: 150px;
+}
+
+li:hover .submenu{
+	display:block;
+}
+
+.submenu li:first-child{
+    top:60px;
+}
+
+.submenu li:second-child{
+    top:90px;
+}
+
+.submenu li:last-child{
+    top:105px;
+}
+/************* first page styling************************/
+
+.first-page{
+    margin: 0;
+}
+.my-img{
+    width:100%;
+    position: fixed;
+}
+
+.identity{
+    position: absolute;
+    z-index: 1;
+    left: 350px;
+    top: 450px;
+    display: flex;
+    width: 500px;
+    flex-wrap:wrap;
+    justify-content:center;
+    color: #FFF5EE;
+}
+
+.contact-icons{
+    list-style: none;
+}
+.enter-site{
+    font-size: 2.2rem;
+    margin: 10px 200px;
+    
+}
+/******************About page styles ***********************/
+.my-photo{
+    border:1px solid #000;
+    float: left;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.about-me{
+    text-align: justify;
+    font-size: 1.8rem;
+}
+
+/********************Resume page styles********************/
+.resume-section{
+    padding-left: 2.1rem;
+}
+.resume-field-title{
+    font-size: 2.6rem;
+}
+
+.resume-field-subtitle{
+    font-size: 2rem;
+}
+
+
+/*********whatRecommendsMe page style****************/
+
+/**********BMI***********/
+.bmi-calculator{
+    height: 500px;
+}
+.bmi-calculator-title{
+	text-align:center;
+	color:#ffff66;
+	font-weight:bold;
+}
+
+.bmi-calculator-form{
+	width:300px;
+	height:320px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	background-color:#ffff66;
+	padding:15px;
+	opacity:0.7;
+	border-radius:10%;
+}
+
+.bmi-calculator-label{
+	width:80px;
+	height:30px;
+	margin-top:10px;
+	font-size:20px;
+	font-weight:bold;
+	clear:both;	
+	float:left;
+	margin-right:5px;
+}
+
+.bmi-calculator-input{	
+	width:175px;
+	margin-top:10px;	
+	font-size:18px;	
+	border:0.5px solid #000;
+	text-align:center;
+}
+
+.bmi-calculator-select{
+	margin-top:10px;
+	float:left;
+	font-size:18px;
+	position:relative;
+	left:15px;
+	border:0.5px solid #000;
+	background-color:#f2f2f2;
+}
+
+.button{
+	clear:both;
+	width:100px;
+	position:relative;
+	top:0px;
+	left: 40px;
+}
+
+#submit{
+	margin-right:10px;
+	background-color:#99e64c;
+	padding: 0;
+}
+
+#reset{
+	background-color:#ff8080;
+}
+
+.bmi-calculator-p{
+	width:200px;
+	height:50px;
+	position:absolute;
+	bottom:150px;
+	left:auto;
+	font-size:20px;
+	color:#F00;
+}
+
+/******************Footer styles**********************/
+footer{
+    clear: both;
+    
+}

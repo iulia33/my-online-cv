@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Iulia Munteanu</title>
+    <meta charset = "utf-8">
+    <meta name = "author" content = "Iulia Munteanu">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <link rel = "stylesheet" href = "/css/skeleton.css">
+    <script type="text/javascript" src="/views/contact-form.js"></script>
+    
+</head>
+<body class = "container">
+   <header>
+        <h1 class = "header-title">Iulia Munteanu</h1>
+        <h2 class = "header-subtitle">Aspiring Javascript Developer</h2>
+        <nav>
+            <ul class = "menu">
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "resume.html">Resume</a></li>
+                <li><a href = "#">What do I do</a>
+                    <ul class="submenu">
+                        <li><a href="bmiCalc.html">BMI Calculator</a></li>
+                        <li><a href="contactForm.html">Contact Form</a></li>
+                        <li><a href="articles.html">Articles</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <article class="article-pages">
+        <p class = "display-message" id = "js-display-message"></p>
+        <form id = "js-my-form">
+            <p id = "js-error"></p>
+            <fieldset>
+                <input type = "text" name = "name" class = "name" id = "js-name" placeholder = "Your Name">
+                
+                <input type="email" name="email" class = "email" id = "js-email" placeholder = "Email"/>
+                
+                <label for = "gender" class = "gender">Gender:</label>
+                <input type="radio" name="gender" value="male" class = "male" checked><label for = "male">Male</label>
+                <input type="radio" name="gender" value="female" class = "male"><label for = "female">Female</label>
+                
+                <textarea name = "message" cols = "40" rows = "10" id = "js-mess" placeholder = "Your message here..."></textarea>
+                
+                <input type="button" class = "submit" value = "Submit"/>
+            </fieldset>
+            <img src = "/photos/image.jpg" class = "contact-form-img">
+        </form>
+    </article>  
+    <footer>
+        <p>&copy; Iulia Munteanu</p>
+        <p>
+           <img src = "/photos/facebook.png"/>
+           <img src = "/photos/instagram.png"/>
+           <img src = "/photos/mail.png"/>
+           <img src = "/photos/linkedin.jpg"/>
+        </p>
+    </footer>
+</body>
+</html>

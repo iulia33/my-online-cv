@@ -1,0 +1,66 @@
+<html>
+<head>
+     <title>Iulia Munteanu</title>
+    <meta charset = "utf-8">
+    <meta name = "author" content = "Iulia Munteanu">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <link rel = "stylesheet" href = "/css/skeleton.css">
+    <script type="text/javascript" src="/views/bmi.js"></script>
+    <script type="text/javascript" src="/views/contact-form.js"></script>
+    
+</head>
+<body class = "container">
+   <header>
+        <h1 class = "header-title">Iulia Munteanu</h1>
+        <h2 class = "header-subtitle">Aspiring Javascript Developer</h2>
+        <nav>
+            <ul class = "menu">
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "resume.html">Resume</a></li>
+                <li><a href = "#">What do I do</a>
+                    <ul class="submenu">
+                        <li><a href="bmiCalc.html">BMI Calculator</a></li>
+                        <li><a href="contactForm.html">Contact Form</a></li>
+                        <li><a href="articles.html">Articles</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <article class = "bmi-calculator article-pages">
+        <h1 class = "bmi-calculator-title">BMI Calculator</h1>
+		<form class = "bmi-calculator-form">
+			<label class = "bmi-calculator-label" for = "name">Name:</label>
+			<input class = "bmi-calculator-input" type = "text" name = "name" id = "name">
+			
+			<label class = "bmi-calculator-label" for = "gender">Gender:</label>
+			<select class = "bmi-calculator-select" id = "gender">
+				<option id = "male">Male</option>
+				<option id = "female" selected>Female</option>
+			</select>
+			
+			<label  class = "bmi-calculator-label" for = "height">Height:</label>
+			<input class = "bmi-calculator-input" type = "text" name = "name" id = "height" placeholder = "meters">
+			
+			<label class = "bmi-calculator-label" for = "weight">Weight:</label>
+			<input class = "bmi-calculator-input" type = "text" name = "weight" id = "weight" placeholder = "kilograms">
+			
+			<input class = "button" type = "button" id = "submit" value = "Check BMI">
+			<input class = "button" type = "button" id = "reset" value = "Reset" onclick = "window.location.reload()">	
+
+			<p class = "bmi-calculator-p" id = "result"></p>
+		</form>		
+    </article>
+    <footer>
+        <p>&copy; Iulia Munteanu</p>
+        <p>
+           <img src = "/photos/facebook.png"/>
+           <img src = "/photos/instagram.png"/>
+           <img src = "/photos/mail.png"/>
+           <img src = "/photos/linkedin.jpg"/>
+        </p>
+    </footer>
+</body>
+</html>

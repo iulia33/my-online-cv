@@ -1,0 +1,77 @@
+
+form{
+    margin: 50px auto;
+    width:700px;
+    height: 450px;
+    padding: 50px 20px 50px 50px;
+}
+
+fieldset{
+    width:320px;
+    border:none;
+    float: left;
+}
+input{
+    font-size:20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.name{
+    float: left;
+    width:300px;
+}
+
+.email{
+    clear: both;
+    float: left;
+    width:300px;
+}
+
+.gender{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    clear: both;
+    float: left;
+}
+
+.male{
+    margin-left: 100px;
+    clear: both;
+    float: left; 
+}
+
+.female{
+    margin-left: 100px;
+    clear: both;
+   float: left; 
+}
+
+label{
+    float: left;
+}
+
+textarea{
+    clear: both;
+   float: left;
+}
+
+.submit{
+    clear: both;
+   float: left;
+   margin-top: 20px;
+}
+
+.contact-form-img{
+   width: 300px;
+   margin-left: 30px;
+ 
+}
+
+.red-border{
+    border: 1px solid red;
+}
+
+.display-message{
+   margin-left: 400px;
+}

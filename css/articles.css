@@ -1,0 +1,112 @@
+
+/*style for the navbar*/
+.navbar{
+    height: 100px;
+}
+
+.infoBox{
+    width: 150px;
+    float: right;
+    margin-top: -60px;
+    font-size: 18px;
+}
+
+
+/*create style for the articles*/
+.article-pages{
+    border:5px solid #FFB6C1;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    padding:30px 35px;
+    background-color: #FFFFF0;
+    
+}
+
+.h2Title{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.artP{
+    display: inline-block; 
+    width: 650px;
+    cursor: pointer;
+}
+
+.artImg{
+    content: url("../photos/backgr-tree.jpg");
+    width:200px;
+    float:left;
+   padding-right: 15px;
+    cursor: pointer;
+}
+
+.artBody{
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*create style for comments*/
+.commSection{
+    width: 50%;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+    border:1px solid grey;
+}
+
+.userImg{
+    content: url("../photos/backgr-girl.jpg");
+    width: 100px;
+    float: left;
+    padding-right: 10px;
+}
+
+.commUser{
+    margin-left: 350px;
+    padding-left: 10px; 
+}
+
+/*style for new comment input*/
+.nameInput{
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+
+.emailInput{
+    margin-right: 200px;
+    margin-bottom: 10px;
+}
+
+.commentBox{
+    margin-bottom: 5px;
+}
+
+.postCommBtn{
+    margin-right: 200px;
+}
+
+/*style for pagination */
+.pagination{
+    margin-bottom: 75px;
+}
+
+.pagination li{
+    list-style: none;
+    float: left;
+    width: 30px;
+    border: 1px solid #FFE4E1;
+    background-color: #FFB6C1;
+    text-align: center;
+}
+
+.pagination li:hover{
+    cursor: pointer;
+    background-color: #FFFFF0;
+}
+.pagination ul{
+    border: 0px;
+    padding: 0px;
+}
