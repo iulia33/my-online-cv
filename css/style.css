@@ -120,13 +120,14 @@ li:hover .submenu{
     color: #FFF5EE;
 }
 
-.contact-icons{
-    list-style: none;
+.identity img{
+    margin-left: 5px;    
 }
+
 .enter-site{
     font-size: 2.2rem;
     margin: 10px 200px;
-    
+    background-color:#000;
 }
 /******************About page styles ***********************/
 .my-photo{
@@ -238,5 +239,6 @@ li:hover .submenu{
 /******************Footer styles**********************/
 footer{
     clear: both;
-    
+    font-size: 1.6rem;
+    text-align: center;
 }

@@ -20,7 +20,7 @@ window.addEventListener("load", function(){
    
    //display the article
    function displayArticle(){
-       const artContainer = document.getElementsByTagName("body")[0];
+       const artContainer = document.getElementsByTagName("article")[0];
        const artElement = document.createElement("article");
        artElement.classList.add("article-pages");
        

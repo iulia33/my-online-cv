@@ -66,7 +66,7 @@ window.addEventListener("load", function(){
     //use the id to display the page for the clicked article
     function displayArticlePage(event){
         let id = event.target.id;
-        window.location.href = `https://preview.c9users.io/iulia34/my-online-cv/pages/article.html?id=${id}`;
+        window.location.href = `https://preview.c9users.io/iulia34/my-online-cv/my-online-cv/pages/article.html?id=${id}`;
                                
     }
     
